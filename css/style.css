@@ -328,7 +328,7 @@ nav a:hover {
 }
 
 .hero ul {
-  font-size: 1.2vw; 
+  font-size: 1.5vw; 
   margin-bottom: 2rem;
 }
 .hero ul li{
@@ -556,50 +556,7 @@ h2 {
   border-radius: 0.8vw;
 }
 
-/* ---------- MOBILE (under 768px) ---------- */
-@media (max-width: 768px) {
-  .nav-container {
-    flex-direction: column;
-    align-items: center;
-  }
 
-  nav {
-    flex-direction: column;
-    gap: 0.5rem;
-    align-items: center;
-    margin-top: 1rem;
-  }
-
-  .hero {
-
-    padding: 10vh ;
-    width: 100%;
-  }
-
-  .hero h2 {
-    font-size: 1.6rem;
-  }
-
-  .hero p {
-    font-size: 0.95rem;
-  }
-
- 
-  .btn {
-    margin:auto;
-    justify-content: center;
-    align-items: center;
-    font-size: 2.5vw;
-  }
-  
-
-
-  #toggleOrderBtn {
-    font-size: 4.5vw;
-  }
-
-
-}
 
 .centered-box-2 {
   background-color: #1c1c1c;
@@ -646,7 +603,6 @@ h2 {
 }
 
 .left-content h2 {
-  font-size: 3vw;
   margin-bottom: 2vh;
 }
 .email {
@@ -657,8 +613,12 @@ h2 {
 
 /* ---------- TABLET (768px - 1024px) ---------- */
 @media (max-width: 1024px) {
+
+  #toggleOrderBtn {
+    font-size: 4.5vw;}
+
   .hero h2 {
-    font-size: 1.8rem;
+      font-size: 6.8vw;
   }
 
   .hero p {
@@ -733,5 +693,141 @@ h2 {
     flex-wrap: wrap;
     gap: 1vw;
   }
+
+  .btn {
+    margin:auto;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.5vw;
+  }
+  footer{
+    font-size: 3vw;
+  }
+  .tagline2{
+    font-size: 3vw;
+  }
+  .footer-contact-header {
+    font-size: 3vw;
+  }
+  .footer-right {
+    text-align: left;
+  }
+  .hero h3 {
+    font-size: 5.8vw;
+    
 }
 
+.responsive-img {
+  width: 60%;
+ }
+
+ .hero {
+
+  padding: 10vh 0;
+  width: 100%;
+}
+
+.hero ul{font-size: 1.1rem;}
+
+.hero h3 {
+  font-size: 5.8vw;
+  margin-bottom: 2rem;
+}
+.icon{
+  width: 20vw;
+  height: 20vw;
+}
+.right-content p{
+  font-size: 5vw;
+}
+.left-content h2 {
+  font-size: 6.8vw;
+}
+.left-content h3{
+  font-size: 5.8vw;
+}
+}
+
+
+
+
+/* ---------- MOBILE (under 768px) ---------- */
+@media (max-width: 768px) {
+  .nav-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav {
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+    margin-top: 1rem;
+  }
+
+  .hero {
+
+    padding: 10vh 0;
+    width: 100%;
+  }
+ 
+  .hero ul{font-size: 1.1rem;}
+
+  .hero h3 {
+    font-size: 5.8vw;
+    margin-bottom: 2rem;
+}
+
+  .hero h2 {
+    font-size: 1.6rem;
+  }
+
+  .hero p {
+    font-size: 0.95rem;
+  }
+
+ 
+  .btn {
+    margin:auto;
+    justify-content: center;
+    align-items: center;
+    font-size: 5.5vw;
+  }
+  
+  .left-content h3{
+    font-size: 5.8vw;
+  }
+
+  #toggleOrderBtn {
+    font-size: 4.5vw;
+  }
+  .responsive-img {
+   width: 100%;
+  }
+  .icon{
+    width: 20vw;
+    height: 20vw;
+  }
+  .right-content p{
+    font-size: 5vw;
+  }
+  .left-content h2 {
+    font-size: 6.8vw;
+}
+footer{
+  font-size: 5vw;
+}
+.tagline2{
+  font-size: 5vw;
+}
+.footer-contact-header {
+  font-size: 5vw;
+}
+.footer-right {
+  text-align: left;
+}
+.hero h2 {
+  font-size: 6.8vw;
+}
+
+}
