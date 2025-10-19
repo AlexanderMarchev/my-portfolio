@@ -831,3 +831,10 @@ footer{
 }
 
 }
+.my-role {
+  background-color: rgba(255, 204, 112, 0.2); /* soft yellow-ish background */
+  padding: 0.8rem 1rem;
+  border-radius: 10px;
+  color: #fff; /* text color */
+  line-height: 1.5;
+}
