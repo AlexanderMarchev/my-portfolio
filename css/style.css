@@ -646,7 +646,8 @@ h2 {
 
   .responsive-img-projects {
     display: flex;
-    max-width: 100%;
+    max-width: 500px;
+    width: 100%;
     margin:auto;
     justify-content: center;
     align-items: center;
@@ -803,6 +804,7 @@ h2 {
   }
   .responsive-img {
    width: 100%;
+    max-width: 350px;
   }
   .icon{
     width: 20vw;
