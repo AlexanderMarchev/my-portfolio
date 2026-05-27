@@ -490,7 +490,11 @@ footer {
   border-radius: 8px;
   filter: drop-shadow(0 0 8px #ffcc70); 
 }
-
+.responsive-img-projects--phone {
+  max-width: 280px;   
+  width: 100%;        
+  object-fit: contain;
+}
 .responsive-img {
   width: 20%; 
   max-width: 50%; 
